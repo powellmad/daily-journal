@@ -1,8 +1,8 @@
 .containerRight {
 	/* background-color: darkgoldenrod; */
-	margin: 30px 10%;
+	margin: 30px 15%;
 	/* padding: 30px; */
-	width: 50%;
+	width: 60%;
 	display: flex;
     justify-self: center;
     border-radius: 3px;
@@ -23,9 +23,10 @@ article {
     color: #4F4846;
 }
 
-form {
+fieldset {
 	display: flex;
-	flex-flow: column wrap;	
+    flex-flow: column wrap;	
+    border: none;
 }
 
 button {

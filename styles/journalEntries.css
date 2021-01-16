@@ -7,21 +7,25 @@
 
 h2 {
     font-family:'Homemade Apple', cursive;
+    text-align: center;
 }
 
 .containerLeft div {
 	background-color: #F7ECEC;
 	padding: 5px;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .date {
     font-size: small;
+    display: inline;
 }
 
 .title {
-    text-align: center;
+    justify-content: center;
     font-weight: bold;
+    display: inline;
+    padding: 5px;
 }
 
 .first-line {

@@ -21,6 +21,7 @@
                     <p class="date">Date</p>
                     <p class="title">Entry Title</p>
                     <p class="first-line">First lines of entry...</p>
+                    
                     <!-- buttons for edit and delete -->
                 </div>
                 <div>
@@ -54,23 +55,25 @@
                     <input type="date">
                     <h2 class="newTitle">New Journal Entry</h2>
                     <form>
-                        <label for="title"></label>
-                        <input type="text" id="title" name="title" placeholder="
-                        Title of New Entry">
+                        <fieldset>
+                            <label for="title"></label>
+                            <input type="text" id="title" name="title" placeholder="
+                            Title of New Entry">
 
-                        <label for="entry"></label>
-                        <textarea cols="20" rows="20" name="entry" placeholder="
-                        Start Entry..."></textarea>
+                            <label for="entry"></label>
+                            <textarea cols="20" rows="20" name="entry" placeholder="
+                            Start Entry..."></textarea>
 
-                        <label for="mood">Current Mood:</label>
-                        <select name="mood" id="mood">
-                            <option value="Confident">Confident</option>
-                            <option value="Optimistic">Optimistic</option>
-                            <option value="Fine">Fine</option>
-                            <option value="Stressed">Stressed</option>
-                            <option value="Struggling">Struggling</option>
-                        </select>
-                        <button type="button">Record Entry</button>
+                            <label for="mood">Current Mood:</label>
+                            <select name="mood" id="mood">
+                                <option value="Confident">Confident</option>
+                                <option value="Optimistic">Optimistic</option>
+                                <option value="Fine">Fine</option>
+                                <option value="Stressed">Stressed</option>
+                                <option value="Struggling">Struggling</option>
+                            </select>
+                            <button type="button">Record Entry</button>
+                        </fieldset>
                     </form>
                 </article>
             </div>
