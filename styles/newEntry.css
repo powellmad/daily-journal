@@ -1,7 +1,5 @@
 .containerRight {
-	/* background-color: darkgoldenrod; */
 	margin: 30px 15%;
-	/* padding: 30px; */
 	width: 60%;
 	display: flex;
     justify-self: center;
@@ -57,10 +55,10 @@ textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.newTitle {
-    text-align: center;
+.newEntryLabel {
+padding-left: 5px;
 }
 
 ::placeholder {
-    color: #4F4846;
+    color: #DDAF94;
 }

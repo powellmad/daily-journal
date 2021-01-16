@@ -31,3 +31,7 @@ header {
 footer {
     padding: 10px;
 }
+
+footer a {
+    color: #4F4846;
+}
