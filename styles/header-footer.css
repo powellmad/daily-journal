@@ -1,0 +1,14 @@
+header, footer {
+	background-color: powderblue;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+header img {
+	align-self: center;
+}
+
+h1 {
+	text-align: center;
+}
