@@ -6,6 +6,7 @@
 	display: flex;
     justify-self: center;
     border-radius: 3px;
+    box-shadow: 4px 4px 30px -2px rgba(0, 0, 0, 0.19);
 }
 
 .containerRight h2 {
@@ -15,10 +16,11 @@
 
 article {
 	justify-self: center;
-	background-color: #E8CEBF;
+	background-color: #F7ECEC;
 	width: 100%;
     padding: 35px;
     border-radius: 3px;
+    color: #4F4846;
 }
 
 form {
@@ -31,13 +33,14 @@ button {
     height: 35px;
     border: solid 3px #266150;
     background-color: #266150;
+    color: #F7ECEC;
     margin: 5px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-self: right;
 }
 
 input, select {
-    border: 1px #DDAF94 solid;
+    border: 1px #F7ECEC solid;
     margin: 5px 0;
     height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,11 +51,15 @@ select {
 }
 
 textarea {
-    border: 1px #DDAF94 solid;
+    border: 1px #F7ECEC solid;
     margin: 5px 0 20px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .newTitle {
     text-align: center;
+}
+
+::placeholder {
+    color: #4F4846;
 }
