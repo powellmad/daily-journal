@@ -1,19 +1,24 @@
 .containerRight {
-	background-color: darkgoldenrod;
+	/* background-color: darkgoldenrod; */
 	margin: 30px 10%;
-	padding: 30px;
+	/* padding: 30px; */
 	width: 50%;
 	display: flex;
     justify-self: center;
-    border-radius: 1%;
+    border-radius: 3px;
+}
+
+.containerRight h2 {
+    font-weight: bold;
+    font-size: 30px;
 }
 
 article {
 	justify-self: center;
-	background-color: goldenrod;
-	width: 90%;
-    padding: 20px;
-    border-radius: 1%;
+	background-color: #E8CEBF;
+	width: 100%;
+    padding: 35px;
+    border-radius: 3px;
 }
 
 form {
@@ -22,26 +27,32 @@ form {
 }
 
 button {
-    width: 150px;
-    height: 30px;
-    border: solid 3px darkgoldenrod;
+    width: 180px;
+    height: 35px;
+    border: solid 3px #266150;
+    background-color: #266150;
     margin: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: right;
 }
 
 input, select {
-    border: 1px darkgoldenrod solid;
+    border: 1px #DDAF94 solid;
     margin: 5px 0;
     height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 select {
-    width: 40%;
+    width: 180px;
 }
 
 textarea {
-    border: 1px darkgoldenrod solid;
-    margin: 5px 0;
+    border: 1px #DDAF94 solid;
+    margin: 5px 0 20px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.newTitle {
+    text-align: center;
+}

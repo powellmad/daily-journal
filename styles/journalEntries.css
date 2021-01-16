@@ -1,11 +1,31 @@
 .containerLeft {
-	background-color: orchid;
+	background-color: #DDAF94;
 	padding: 0 20px;
-	width: 20%
+    width: 20%;
+    color: #4F4846;
+}
+
+h2 {
+    font-family:'Homemade Apple', cursive;
 }
 
 .containerLeft div {
-	background-color: plum;
+	background-color: #E8CEBF;
 	padding: 5px;
-	margin: 10px 0;
+    margin: 10px 0;
 }
+
+.date {
+    font-size: small;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.first-line {
+    padding: 10px 0;
+}
+
+
