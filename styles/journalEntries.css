@@ -1,0 +1,11 @@
+.containerLeft {
+	background-color: orchid;
+	padding: 0 20px;
+	width: 20%
+}
+
+.containerLeft div {
+	background-color: plum;
+	padding: 5px;
+	margin: 10px 0;
+}
