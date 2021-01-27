@@ -1,7 +1,7 @@
 .containerLeft {
 	background-color: #DDAF94;
 	padding: 0 20px;
-    width: 20%;
+    width: 23%;
     color: #4F4846;
 }
 
@@ -22,10 +22,10 @@ h2 {
 }
 
 .title {
-    justify-content: center;
+    justify-items: center;
     font-weight: bold;
     display: inline;
-    padding: 5px;
+    padding: 25px;
 }
 
 .first-line {
