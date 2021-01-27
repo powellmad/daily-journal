@@ -18,9 +18,13 @@
             <div class="containerLeft">
                 <h2>My Journal Entries</h2>
                 <div>
-                    <p class="date">Date</p>
+                    <div>
+                        <p class="date">Date</p>
                     <p class="title">Entry Title</p>
+                    </div>
+                    
                     <p class="first-line">First lines of entry...</p>
+                    
                     <!-- buttons for edit and delete -->
                 </div>
                 <div>
@@ -54,23 +58,25 @@
                     <input type="date">
                     <h2 class="newTitle">New Journal Entry</h2>
                     <form>
-                        <label for="title"></label>
-                        <input type="text" id="title" name="title" placeholder="
-                        Title of New Entry">
+                        <fieldset>
+                            <label class="newEntryLabel" for="title">Title:</label>
+                            <input type="text" id="title" name="title" placeholder="
+                            Main Idea/Concepts Covered">
 
-                        <label for="entry"></label>
-                        <textarea cols="20" rows="20" name="entry" placeholder="
-                        Start Entry..."></textarea>
+                            <label class="newEntryLabel" for="entry">New Entry:</label>
+                            <textarea cols="20" rows="20" name="entry" placeholder="
+                            Begin New Entry..."></textarea>
 
-                        <label for="mood">Current Mood:</label>
-                        <select name="mood" id="mood">
-                            <option value="Confident">Confident</option>
-                            <option value="Optimistic">Optimistic</option>
-                            <option value="Fine">Fine</option>
-                            <option value="Stressed">Stressed</option>
-                            <option value="Struggling">Struggling</option>
-                        </select>
-                        <button type="button">Record Entry</button>
+                            <label for="mood">Current Mood:</label>
+                            <select name="mood" id="mood">
+                                <option value="Confident">Confident</option>
+                                <option value="Optimistic">Optimistic</option>
+                                <option value="Fine">Fine</option>
+                                <option value="Stressed">Stressed</option>
+                                <option value="Struggling">Struggling</option>
+                            </select>
+                            <button type="button">Record Entry</button>
+                        </fieldset>
                     </form>
                 </article>
             </div>
