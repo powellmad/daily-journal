@@ -9,10 +9,11 @@ h2 {
     font-family:'Homemade Apple', cursive;
 }
 
-.containerLeft div {
+.containerLeft section {
 	background-color: #F7ECEC;
 	padding: 5px;
     margin: 10px 0;
+    border-radius: 3px;
 }
 
 .date {
@@ -28,4 +29,6 @@ h2 {
     padding: 10px 0;
 }
 
-
+.containerLeft div {
+    font-size: 14px;
+}
