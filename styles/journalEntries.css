@@ -1,12 +1,13 @@
 .containerLeft {
 	background-color: #DDAF94;
 	padding: 0 20px;
-    width: 20%;
+    width: 23%;
     color: #4F4846;
 }
 
 h2 {
     font-family:'Homemade Apple', cursive;
+    text-align: center;
 }
 
 .containerLeft section {
@@ -18,11 +19,14 @@ h2 {
 
 .date {
     font-size: small;
+    display: inline;
 }
 
 .title {
-    text-align: center;
+    justify-items: center;
     font-weight: bold;
+    display: inline;
+    padding: 25px;
 }
 
 .first-line {
