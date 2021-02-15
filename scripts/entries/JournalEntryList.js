@@ -1,5 +1,8 @@
-import { useJournalEntries } from "./JournalDataProvider.js"
+import { useJournalEntries, getEntries } from "./JournalEntryDataProvider.js"
 import { Entry } from "./JournalEntry.js"
+
+const entryLog = document.querySelector(".containerLeft")
+const allEntries = useJournalEntries()
 
 let entryHTML = ""
 const buildEntryHTML = (entryArray) => {
@@ -8,9 +11,6 @@ const buildEntryHTML = (entryArray) => {
     }
     return entryHTML
 }
-
-const entryLog = document.querySelector(".containerLeft")
-const allEntries = useJournalEntries()
 
 export const EntryList = () => {
         buildEntryHTML(allEntries)
@@ -21,7 +21,4 @@ export const EntryList = () => {
             ${entryHTML}
         </div>
         `
-    
 }
-
-

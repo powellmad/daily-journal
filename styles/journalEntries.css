@@ -36,3 +36,11 @@ h2 {
 .containerLeft div {
     font-size: 14px;
 }
+
+.line {
+    padding: 3px;
+}
+
+section h4 {
+    margin: 4px 0;
+}

@@ -1,4 +1,5 @@
-import {EntryList} from "./JournalEntryList.js"
+import {EntryList} from "./entries/JournalEntryList.js"
+import { FormList } from "./form/JournalForm.js"
 
-console.log("Welcome to the main module")
 EntryList()
+FormList()
