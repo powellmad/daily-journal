@@ -1,35 +1,38 @@
 header, footer {
 	background-color: #FDF8F5;
-	display: flex;
+    display: flex;
     justify-content: space-between;
     color: #4F4846;
+}
+
+header {
+    height: 200px;
 }
 
 header img {
     align-self: center;
     width: 200px;
     padding: 5px;
+    height: 200px;
 }
 
 h1 {
     text-align: center;
     font-family:'Homemade Apple', cursive;
     font-size: 40px;
+    align-self: center;
 }
 
 header p {
-    font-size: 22px;
+    font-size: 20px;
     font-family:'Homemade Apple', cursive;
     padding: 5px 5px 0 0;
     width: 200px;
 }
 
-header {
-    height: 140px;
-}
-
 footer {
     padding: 10px;
+    align-self: flex-end;
 }
 
 footer a {

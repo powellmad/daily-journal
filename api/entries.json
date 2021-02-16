@@ -1,25 +1,25 @@
 {
-    "entries": [
-        {
-            "id": 1,
-            "date": "01/29/2021",
-            "subject": "Dynamically Populating",
-            "entry": "We went over dynamically populating data on the DOM using javascript",
-            "mood": "Optimistic"
-        },
-        {
-            "id": 2,
-            "date": "02/01/2021",
-            "subject": "Event Listeners",
-            "entry": "Learned how to access a local API on a button click. Event listeners are tricky business.",
-            "mood": "Fine"
-        },
-        {
-            "id": 3,
-            "date": "02/15/2021",
-            "subject": "One to Many Relationships",
-            "entry": "Entity Relationship Diagrams, or ERDs, outline the relationships in the data structure. A one to many relationship is what we are starting with.",
-            "mood": "Confident"
-        }
-    ]
+  "entries": [
+    {
+      "id": 1,
+      "date": "01/29/2021",
+      "subject": "Dynamically Populating",
+      "entry": "We went over dynamically populating data on the DOM using javascript",
+      "mood": "Optimistic"
+    },
+    {
+      "id": 2,
+      "date": "02/01/2021",
+      "subject": "Event Listeners",
+      "entry": "Learned how to access a local API on a button click. Event listeners are tricky business.",
+      "mood": "Fine"
+    },
+    {
+      "id": 3,
+      "date": "02/15/2021",
+      "subject": "One to Many Relationships",
+      "entry": "Entity Relationship Diagrams, or ERDs, outline the relationships in the data structure. A one to many relationship is what we are starting with.",
+      "mood": "Confident"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 .containerRight {
 	margin: 30px 15%;
-	width: 60%;
+    width: 60%;
+    min-height: 370px;
 	display: flex;
     justify-self: center;
     border-radius: 3px;
@@ -27,7 +28,7 @@ fieldset {
     border: none;
 }
 
-button {
+#saveButton {
     width: 180px;
     height: 35px;
     border: solid 3px #266150;
