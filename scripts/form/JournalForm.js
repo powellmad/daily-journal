@@ -1,7 +1,10 @@
+import { saveEntry } from "../entries/EntryDataProvider.js"
+
 const eventHub = document.querySelector(".container")
+const contentTarget = document.querySelector(".containerRight")
 
 const renderForm = () => {
-        return `<article>
+        contentTarget.innerHTML = `<article>
         <p>Madison Powell</p>    
         <input type="date" id="entry-date">
             <h2 class="newTitle">New Journal Entry</h2>
@@ -19,7 +22,7 @@ const renderForm = () => {
 
                 <fieldset>
                     <label for="entry-mood">Current Mood:</label>
-                    <select name="mood" id="entrymood">
+                    <select name="mood" id="entry-mood">
                         <option value="Confident">Confident</option>
                         <option value="Optimistic">Optimistic</option>
                         <option value="Fine">Fine</option>
@@ -35,7 +38,7 @@ const renderForm = () => {
 }
 
 export const EntryForm = () => {
-    renderForm()
+    return renderForm()
 }
 
 eventHub.addEventListener("click", clickEvent => {
@@ -52,6 +55,6 @@ eventHub.addEventListener("click", clickEvent => {
             entry: entry,
             mood: mood
         }
-        saveNote(newEntry)
+        saveEntry(newEntry)
     }
 })

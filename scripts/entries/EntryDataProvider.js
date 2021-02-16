@@ -25,8 +25,8 @@ export const useJournalEntries = () => {
     return sortedByDate
 }
 
-export const saveNote = note => {
-    let stringifiedObj = JSON.stringify(note)
+export const saveEntry = (entry) => {
+    let stringifiedObj = JSON.stringify(entry)
 
     return fetch("http://localhost:8088/entries", {
         
@@ -40,9 +40,10 @@ export const saveNote = note => {
     .then(dispatchStateChangeEvent)
 }
 
-export const deleteNote = entryId => {
-    return fetch(`http://localhost:8088/notes/${entryId}`, {
+export const deleteEntry = entryId => {
+    return fetch(`http://localhost:8088/entries/${entryId}`, {
         method: "DELETE"
     })
         .then(getEntries)
+        .then(dispatchStateChangeEvent)
 }

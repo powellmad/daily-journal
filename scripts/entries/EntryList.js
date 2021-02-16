@@ -1,27 +1,35 @@
-import { useJournalEntries, getEntries, deleteNote } from "./EntryDataProvider.js"
-import { EntryHTMLConverter } from "./Entry.js"
+import { useJournalEntries, getEntries, deleteEntry } from "./EntryDataProvider.js"
+import { Entry } from "./Entry.js"
 
 const eventHub = document.querySelector(".container")
 const entryLog = document.querySelector(".containerLeft")
 
-eventHub.addEventListener ("entryStateChanged", event => {
-    const allEntries = useJournalEntries()
-    render(allEntries)
+eventHub.addEventListener("entryStateChanged", event => {
+    EntryList()
 })
-
-const renderEntries = (entry) => {
-    entryLog.innerHTML = `
-        <div class="entryLog">
-            <h2>My Journal Entries</h2>
-            ${entry}
-        </div>`
-    return EntryHTMLConverter(entry)
-}
 
 export const EntryList = () => {
     getEntries()
     .then(() => {
-        const allNotes = useJournalEntries()
-        renderEntries(allNotes)
+        const entryCollection = useJournalEntries()
+        let HTMLRep = ""
+        for (const entryObj of entryCollection) {
+            HTMLRep += Entry(entryObj)
+        }
+    entryLog.innerHTML = `
+        <div class="entryLog">
+            <h2>My Journal Entries</h2>
+            ${HTMLRep}
+        </div>`
     }) 
 }
+
+eventHub.addEventListener("click", clickEvent => {
+    debugger
+    if (clickEvent.target.id.startsWith("deleteButton--")) {
+        const [prefix, id] = clickEvent.target.id.split("--")
+    
+        console.log("I deleted my entry")
+        deleteEntry(parseInt(id))
+    }
+})
