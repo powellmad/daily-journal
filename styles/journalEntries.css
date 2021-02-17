@@ -1,19 +1,22 @@
+/* Left Journal Entry Section */
 .containerLeft {
 	background-color: #DDAF94;
 	padding: 0 20px;
-    width: 23%;
+    width: 27%;
     color: #4F4846;
     min-height: 370px;
 }
 
+/* Section Header */
 h2 {
     font-family:'Homemade Apple', cursive;
     text-align: center;
 }
 
+/* Entry Cards Styling */
 .containerLeft section {
 	background-color: #F7ECEC;
-	padding: 5px;
+	padding: 5px 10px;
     margin: 10px 0;
     border-radius: 3px;
 }
@@ -46,6 +49,7 @@ section h4 {
     margin: 4px 0;
 }
 
+/* Delete Button */
 .entry button {
     width: 70px;
     padding: 4px;
