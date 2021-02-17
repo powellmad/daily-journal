@@ -8,7 +8,7 @@ const renderForm = () => {
         <p>Madison Powell</p>    
         <input type="date" id="entry-date">
             <h2 class="newTitle">New Journal Entry</h2>
-            <form>
+            <form id="newEntryForm">
                 <fieldset>
                     <label class="newEntryLabel" for="entry-subject">Title:</label>
                     <input type="text" id="entry-subject" name="subject" placeholder="
@@ -42,6 +42,7 @@ export const EntryForm = () => {
 }
 
 eventHub.addEventListener("click", clickEvent => {
+    const form = document.querySelector("#newEntryForm")
     if (clickEvent.target.id === "saveButton") {
         console.log("I saved my entry")
         const date = document.getElementById("entry-date").value
@@ -56,5 +57,6 @@ eventHub.addEventListener("click", clickEvent => {
             mood: mood
         }
         saveEntry(newEntry)
+        form.reset()
     }
 })
