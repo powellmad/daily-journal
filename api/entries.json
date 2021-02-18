@@ -20,13 +20,6 @@
       "subject": "One to Many Relationships",
       "entry": "Entity Relationship Diagrams, or ERDs, outline the relationships in the data structure. A one to many relationship is what we are starting with.",
       "moodId": 1
-    },
-    {
-      "date": "2021-02-17",
-      "subject": "Refactoring API Data Structure",
-      "entry": "We are refactoring the entries api to add another component of \"moods\". These will be a one to many relationship (I think :)).",
-      "mood": "Optimistic",
-      "id": 4
     }
   ],
   "moods": [

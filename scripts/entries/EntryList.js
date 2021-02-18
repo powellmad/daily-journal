@@ -25,7 +25,6 @@ export const EntryList = () => {
 }
 
 eventHub.addEventListener("click", clickEvent => {
-    debugger
     if (clickEvent.target.id.startsWith("deleteButton--")) {
         const [prefix, id] = clickEvent.target.id.split("--")
     
