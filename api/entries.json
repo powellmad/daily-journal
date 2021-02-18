@@ -5,21 +5,59 @@
       "date": "01/29/2021",
       "subject": "Dynamically Populating",
       "entry": "We went over dynamically populating data on the DOM using javascript",
-      "mood": "Optimistic"
+      "moodId": 2
     },
     {
       "id": 2,
       "date": "02/01/2021",
       "subject": "Event Listeners",
       "entry": "Learned how to access a local API on a button click. Event listeners are tricky business.",
-      "mood": "Fine"
+      "moodId": 3
     },
     {
       "id": 3,
       "date": "02/15/2021",
       "subject": "One to Many Relationships",
       "entry": "Entity Relationship Diagrams, or ERDs, outline the relationships in the data structure. A one to many relationship is what we are starting with.",
-      "mood": "Confident"
+      "moodId": 1
+    }
+  ],
+  "moods": [
+    {
+      "id": 1,
+      "label": "Confident"
+    },
+    {
+      "id": 2,
+      "label": "Optimistic"
+    },
+    {
+      "id": 3,
+      "label": "Fine"
+    },
+    {
+      "id": 4,
+      "label": "Struggling"
+    },
+    {
+      "id": 5,
+      "label": "Deceased"
+    },
+    {
+      "id": 6,
+      "label": "ADHD"
+    },
+    {
+      "id": 7,
+      "label": "Caffinated"
+    },
+    {
+      "id": 8,
+      "label": "Excited"
+    },
+    {
+      "id": 9,
+      "label": "Calm"
     }
   ]
 }
