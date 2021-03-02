@@ -20,6 +20,69 @@
       "subject": "One to Many Relationships",
       "entry": "Entity Relationship Diagrams, or ERDs, outline the relationships in the data structure. A one to many relationship is what we are starting with.",
       "moodId": 1
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "Debugging",
+      "entry": "Debugged code cloned from an existing repo.",
+      "moodId": 8,
+      "id": 4
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "",
+      "entry": "test\n",
+      "moodId": 0,
+      "id": 5
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "",
+      "entry": "test",
+      "moodId": 0,
+      "id": 6
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "Test",
+      "entry": "test",
+      "moodId": 0,
+      "id": 7
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "test",
+      "entry": "test",
+      "moodId": 2,
+      "id": 8
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "",
+      "entry": "",
+      "moodId": 0,
+      "id": 9
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "",
+      "entry": "",
+      "moodId": 0,
+      "id": 10
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "",
+      "entry": "",
+      "moodId": 0,
+      "id": 11
+    },
+    {
+      "date": "2021-02-19",
+      "subject": "",
+      "entry": "",
+      "moodId": 0,
+      "id": 12
     }
   ],
   "moods": [

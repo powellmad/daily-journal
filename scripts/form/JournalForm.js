@@ -5,7 +5,6 @@ const eventHub = document.querySelector(".container")
 const contentTarget = document.querySelector(".containerRight")
 
 const renderForm = (moodArray) => {
-        debugger
         contentTarget.innerHTML = `<article>
         <p>Madison Powell</p>    
         <input type="date" id="entry-date">
